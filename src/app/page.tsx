@@ -47,7 +47,7 @@ export default function LandingPage() {
       title="Elevate Your Event With Gourmet Popcorn Experiences"
       description="Luxury kettle corn buffets for weddings, parties, corporate events, and celebrations across Israel."
       buttons={[{ text: "Book Your Event", href: "#contact" }, { text: "View Flavors", href: "#flavors" }]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=iwshww"
+      imageSrc="https://images.unsplash.com/photo-1596703580546-51e94887376c?q=80&w=1200&auto=format&fit=crop"
       mediaAnimation="blur-reveal"
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9kwcz5", alt: "Happy wedding guest" },
@@ -79,9 +79,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { title: "Strict Supervision", description: "Full compliance with high-kashrut standards.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4ago94", imageAlt: "Kosher Logo" },
-        { title: "Pareve Ingredients", description: "Certified dairy-free and suitable for meat or dairy meals.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=65s634", imageAlt: "Kosher Logo" },
-        { title: "Professional Standards", description: "Consistent quality for any event requirement.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fk29ah", imageAlt: "Kosher Logo" },
+        { title: "Strict Supervision", description: "Full compliance with high-kashrut standards.", imageSrc: "https://images.unsplash.com/photo-1542601906990-b4d3fb7780b9?q=80&w=800&auto=format&fit=crop", imageAlt: "Kosher" },
+        { title: "Pareve Ingredients", description: "Certified dairy-free and suitable for meat or dairy meals.", imageSrc: "https://images.unsplash.com/photo-1582236569123-5e744036f014?q=80&w=800&auto=format&fit=crop", imageAlt: "Kosher" },
+        { title: "Professional Standards", description: "Consistent quality for any event requirement.", imageSrc: "https://images.unsplash.com/photo-1577741314755-048bb8eb2b28?q=80&w=800&auto=format&fit=crop", imageAlt: "Kosher" },
       ]}
       title="Certified Kosher Pareve"
       description="We are proud to hold Rabbanut Mehadrin Karnei Shomron certification, ensuring our products meet the highest professional and trusted catering standards for all guests."
@@ -95,15 +95,15 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       products={[
-        { id: "1", name: "Classic Movie", price: "Gourmet", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=888wu6" },
-        { id: "2", name: "Sweet & Salty", price: "Kettle", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l18aso" },
-        { id: "3", name: "Dark Chocolate", price: "Indulgent", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s332ns" },
-        { id: "4", name: "Oreo Crunch", price: "Sweet", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zjto9l" },
-        { id: "5", name: "Vanilla Confetti", price: "Fun", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3t1o6k" },
-        { id: "6", name: "ZING! Taco", price: "Bold", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g22h16" },
-        { id: "7", name: "Garlic Herb", price: "Savory", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=r001et" },
-        { id: "8", name: "PB Chocolate", price: "Rich", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=plu1ds" },
-        { id: "9", name: "Cinnamon Churro", price: "Spiced", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=n3eeq4" },
+        { id: "1", name: "Classic Movie", price: "Gourmet", imageSrc: "https://images.unsplash.com/photo-1578849278619-e73505e9610f?q=80&w=800&auto=format&fit=crop" },
+        { id: "2", name: "Sweet & Salty", price: "Kettle", imageSrc: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=800&auto=format&fit=crop" },
+        { id: "3", name: "Dark Chocolate", price: "Indulgent", imageSrc: "https://images.unsplash.com/photo-1608039783767-422070e1713d?q=80&w=800&auto=format&fit=crop" },
+        { id: "4", name: "Oreo Crunch", price: "Sweet", imageSrc: "https://images.unsplash.com/photo-1623428187969-5da2dcea56f3?q=80&w=800&auto=format&fit=crop" },
+        { id: "5", name: "Vanilla Confetti", price: "Fun", imageSrc: "https://images.unsplash.com/photo-1588195538326-02b1399a0937?q=80&w=800&auto=format&fit=crop" },
+        { id: "6", name: "ZING! Taco", price: "Bold", imageSrc: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=800&auto=format&fit=crop" },
+        { id: "7", name: "Garlic Herb", price: "Savory", imageSrc: "https://images.unsplash.com/photo-1615485290382-441f4d0faf26?q=80&w=800&auto=format&fit=crop" },
+        { id: "8", name: "PB Chocolate", price: "Rich", imageSrc: "https://images.unsplash.com/photo-1596703580546-51e94887376c?q=80&w=800&auto=format&fit=crop" },
+        { id: "9", name: "Cinnamon Churro", price: "Spiced", imageSrc: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" },
       ]}
       title="Our Gourmet Flavors"
       description="Discover a world of hand-tossed, kettle-cooked perfection."
@@ -115,11 +115,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Weddings", description: "Luxury late-night snacks.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9kwcz5", imageAlt: "Wedding" },
-        { title: "Corporate Events", description: "Brand-focused buffets.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2q2o08", imageAlt: "Corporate" },
-        { title: "Bar/Bat Mitzvahs", description: "Fun, high-energy setups.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9tbp46", imageAlt: "Mitvahs" },
-        { title: "Private Parties", description: "Customized to your theme.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=f84qa1", imageAlt: "Party" },
-        { title: "School Events", description: "Kid-friendly snacks.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=c36ue3", imageAlt: "School" },
+        { title: "Weddings", description: "Luxury late-night snacks.", imageSrc: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop", imageAlt: "Wedding" },
+        { title: "Corporate Events", description: "Brand-focused buffets.", imageSrc: "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop", imageAlt: "Corporate" },
+        { title: "Bar/Bat Mitzvahs", description: "Fun, high-energy setups.", imageSrc: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop", imageAlt: "Mitzvahs" },
+        { title: "Private Parties", description: "Customized to your theme.", imageSrc: "https://images.unsplash.com/photo-1533174072545-e7b99c08003f?q=80&w=800&auto=format&fit=crop", imageAlt: "Party" },
+        { title: "School Events", description: "Kid-friendly snacks.", imageSrc: "https://images.unsplash.com/photo-1523580494863-6f3031224c25?q=80&w=800&auto=format&fit=crop", imageAlt: "School" },
       ]}
       title="Events & Experiences"
       description="From elegant weddings to corporate galas, we deliver popcorn experiences."
@@ -147,11 +147,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Setup 1", handle: "Gourmet", testimonial: "Wedding event set up.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=17tyxd" },
-        { id: "2", name: "Setup 2", handle: "Corporate", testimonial: "Corporate gala setup.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1o394z" },
-        { id: "3", name: "Setup 3", handle: "Mitzvah", testimonial: "Bar mitzvah celebration.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nkj12g" },
-        { id: "4", name: "Setup 4", handle: "Party", testimonial: "Private event display.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=00dzyl" },
-        { id: "5", name: "Setup 5", handle: "Popcorn", testimonial: "Gourmet popcorn bar.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vt2gej" },
+        { id: "1", name: "Luxury Display", handle: "Wedding", testimonial: "Gold-accented popcorn display for elegant weddings.", imageSrc: "https://images.unsplash.com/photo-1574784267440-6e3e56a4220b?q=80&w=800&auto=format&fit=crop" },
+        { id: "2", name: "Corporate Suite", handle: "Gala", testimonial: "Premium branding for corporate events.", imageSrc: "https://images.unsplash.com/photo-1519671482749-fd07be7c7757?q=80&w=800&auto=format&fit=crop" },
+        { id: "3", name: "Celebration Bar", handle: "Mitzvah", testimonial: "High-energy dessert bar for celebrations.", imageSrc: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" },
+        { id: "4", name: "Private Setup", handle: "Party", testimonial: "Bespoke popcorn presentation.", imageSrc: "https://images.unsplash.com/photo-1607532941433-304659e8198a?q=80&w=800&auto=format&fit=crop" },
+        { id: "5", name: "Gourmet Spread", handle: "Populari", testimonial: "The signature Populari gold buffet.", imageSrc: "https://images.unsplash.com/photo-1599395421714-c361405b0c74?q=80&w=800&auto=format&fit=crop" },
       ]}
       title="Event Gallery"
       description="Visual highlights from our gourmet buffet setups."
@@ -187,7 +187,7 @@ export default function LandingPage() {
         { name: "date", type: "date", placeholder: "Event Date" },
       ]}
       textarea={{ name: "notes", placeholder: "Event details and flavor preferences..." }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=blr4qv"
+      imageSrc="https://images.unsplash.com/photo-1596703580546-51e94887376c?q=80&w=1200&auto=format&fit=crop"
     />
   </div>
 
